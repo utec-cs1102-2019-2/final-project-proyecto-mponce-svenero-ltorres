@@ -82,40 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Auto.cpp">
-			<Option target="Juego"/>
-		</Unit>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Auto.h">
-			<Option target="Juego"/>
-		</Unit>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Bicicleta.cpp">
-			<Option target="Juego"/>
-		</Unit>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Bicicleta.h">
-			<Option target="Juego"/>
-		</Unit>
 		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Menu.cpp">
 			<Option target="Juego"/>
 		</Unit>
 		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Menu.h">
-			<Option target="Juego"/>
-		</Unit>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Motocicleta.cpp">
-			<Option target="Juego"/>
-		</Unit>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Motocicleta.h">
-			<Option target="Juego"/>
-		</Unit>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Troncomovil.cpp">
-			<Option target="Juego"/>
-		</Unit>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Troncomovil.h">
-			<Option target="Juego"/>
-		</Unit>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Vehiculo.cpp">
-			<Option target="Juego"/>
-		</Unit>
-		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Vehiculo.h">
 			<Option target="Juego"/>
 		</Unit>
 		<Unit filename="C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/main.cpp">

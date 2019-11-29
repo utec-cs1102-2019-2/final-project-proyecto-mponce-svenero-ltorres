@@ -69,35 +69,9 @@ CMakeFiles/Juego.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Juego.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\main.cpp -o CMakeFiles\Juego.dir\main.cpp.s
 
-CMakeFiles/Juego.dir/Bicicleta.cpp.obj: CMakeFiles/Juego.dir/flags.make
-CMakeFiles/Juego.dir/Bicicleta.cpp.obj: ../Bicicleta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Juego.dir/Bicicleta.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Juego.dir\Bicicleta.cpp.obj -c C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Bicicleta.cpp
-
-CMakeFiles/Juego.dir/Bicicleta.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Juego.dir/Bicicleta.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Bicicleta.cpp > CMakeFiles\Juego.dir\Bicicleta.cpp.i
-
-CMakeFiles/Juego.dir/Bicicleta.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Juego.dir/Bicicleta.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Bicicleta.cpp -o CMakeFiles\Juego.dir\Bicicleta.cpp.s
-
-CMakeFiles/Juego.dir/Auto.cpp.obj: CMakeFiles/Juego.dir/flags.make
-CMakeFiles/Juego.dir/Auto.cpp.obj: ../Auto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Juego.dir/Auto.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Juego.dir\Auto.cpp.obj -c C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Auto.cpp
-
-CMakeFiles/Juego.dir/Auto.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Juego.dir/Auto.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Auto.cpp > CMakeFiles\Juego.dir\Auto.cpp.i
-
-CMakeFiles/Juego.dir/Auto.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Juego.dir/Auto.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Auto.cpp -o CMakeFiles\Juego.dir\Auto.cpp.s
-
 CMakeFiles/Juego.dir/Menu.cpp.obj: CMakeFiles/Juego.dir/flags.make
 CMakeFiles/Juego.dir/Menu.cpp.obj: ../Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Juego.dir/Menu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Juego.dir/Menu.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Juego.dir\Menu.cpp.obj -c C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Menu.cpp
 
 CMakeFiles/Juego.dir/Menu.cpp.i: cmake_force
@@ -108,70 +82,21 @@ CMakeFiles/Juego.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Juego.dir/Menu.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Menu.cpp -o CMakeFiles\Juego.dir\Menu.cpp.s
 
-CMakeFiles/Juego.dir/Motocicleta.cpp.obj: CMakeFiles/Juego.dir/flags.make
-CMakeFiles/Juego.dir/Motocicleta.cpp.obj: ../Motocicleta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Juego.dir/Motocicleta.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Juego.dir\Motocicleta.cpp.obj -c C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Motocicleta.cpp
-
-CMakeFiles/Juego.dir/Motocicleta.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Juego.dir/Motocicleta.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Motocicleta.cpp > CMakeFiles\Juego.dir\Motocicleta.cpp.i
-
-CMakeFiles/Juego.dir/Motocicleta.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Juego.dir/Motocicleta.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Motocicleta.cpp -o CMakeFiles\Juego.dir\Motocicleta.cpp.s
-
-CMakeFiles/Juego.dir/Troncomovil.cpp.obj: CMakeFiles/Juego.dir/flags.make
-CMakeFiles/Juego.dir/Troncomovil.cpp.obj: ../Troncomovil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Juego.dir/Troncomovil.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Juego.dir\Troncomovil.cpp.obj -c C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Troncomovil.cpp
-
-CMakeFiles/Juego.dir/Troncomovil.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Juego.dir/Troncomovil.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Troncomovil.cpp > CMakeFiles\Juego.dir\Troncomovil.cpp.i
-
-CMakeFiles/Juego.dir/Troncomovil.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Juego.dir/Troncomovil.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Troncomovil.cpp -o CMakeFiles\Juego.dir\Troncomovil.cpp.s
-
-CMakeFiles/Juego.dir/Vehiculo.cpp.obj: CMakeFiles/Juego.dir/flags.make
-CMakeFiles/Juego.dir/Vehiculo.cpp.obj: ../Vehiculo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Juego.dir/Vehiculo.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Juego.dir\Vehiculo.cpp.obj -c C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Vehiculo.cpp
-
-CMakeFiles/Juego.dir/Vehiculo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Juego.dir/Vehiculo.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Vehiculo.cpp > CMakeFiles\Juego.dir\Vehiculo.cpp.i
-
-CMakeFiles/Juego.dir/Vehiculo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Juego.dir/Vehiculo.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\Vehiculo.cpp -o CMakeFiles\Juego.dir\Vehiculo.cpp.s
-
 # Object files for target Juego
 Juego_OBJECTS = \
 "CMakeFiles/Juego.dir/main.cpp.obj" \
-"CMakeFiles/Juego.dir/Bicicleta.cpp.obj" \
-"CMakeFiles/Juego.dir/Auto.cpp.obj" \
-"CMakeFiles/Juego.dir/Menu.cpp.obj" \
-"CMakeFiles/Juego.dir/Motocicleta.cpp.obj" \
-"CMakeFiles/Juego.dir/Troncomovil.cpp.obj" \
-"CMakeFiles/Juego.dir/Vehiculo.cpp.obj"
+"CMakeFiles/Juego.dir/Menu.cpp.obj"
 
 # External object files for target Juego
 Juego_EXTERNAL_OBJECTS =
 
 Juego.exe: CMakeFiles/Juego.dir/main.cpp.obj
-Juego.exe: CMakeFiles/Juego.dir/Bicicleta.cpp.obj
-Juego.exe: CMakeFiles/Juego.dir/Auto.cpp.obj
 Juego.exe: CMakeFiles/Juego.dir/Menu.cpp.obj
-Juego.exe: CMakeFiles/Juego.dir/Motocicleta.cpp.obj
-Juego.exe: CMakeFiles/Juego.dir/Troncomovil.cpp.obj
-Juego.exe: CMakeFiles/Juego.dir/Vehiculo.cpp.obj
 Juego.exe: CMakeFiles/Juego.dir/build.make
 Juego.exe: CMakeFiles/Juego.dir/linklibs.rsp
 Juego.exe: CMakeFiles/Juego.dir/objects1.rsp
 Juego.exe: CMakeFiles/Juego.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Juego.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\maxpo\Desktop\final-project-proyecto-mponce-svenero-ltorres\Juego\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Juego.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Juego.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,12 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Auto.cpp" "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/cmake-build-debug/CMakeFiles/Juego.dir/Auto.cpp.obj"
-  "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Bicicleta.cpp" "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/cmake-build-debug/CMakeFiles/Juego.dir/Bicicleta.cpp.obj"
   "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Menu.cpp" "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/cmake-build-debug/CMakeFiles/Juego.dir/Menu.cpp.obj"
-  "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Motocicleta.cpp" "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/cmake-build-debug/CMakeFiles/Juego.dir/Motocicleta.cpp.obj"
-  "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Troncomovil.cpp" "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/cmake-build-debug/CMakeFiles/Juego.dir/Troncomovil.cpp.obj"
-  "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/Vehiculo.cpp" "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/cmake-build-debug/CMakeFiles/Juego.dir/Vehiculo.cpp.obj"
   "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/main.cpp" "C:/Users/maxpo/Desktop/final-project-proyecto-mponce-svenero-ltorres/Juego/cmake-build-debug/CMakeFiles/Juego.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

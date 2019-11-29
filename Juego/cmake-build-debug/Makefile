@@ -122,60 +122,6 @@ Juego/fast:
 	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/build
 .PHONY : Juego/fast
 
-Auto.obj: Auto.cpp.obj
-
-.PHONY : Auto.obj
-
-# target to build an object file
-Auto.cpp.obj:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Auto.cpp.obj
-.PHONY : Auto.cpp.obj
-
-Auto.i: Auto.cpp.i
-
-.PHONY : Auto.i
-
-# target to preprocess a source file
-Auto.cpp.i:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Auto.cpp.i
-.PHONY : Auto.cpp.i
-
-Auto.s: Auto.cpp.s
-
-.PHONY : Auto.s
-
-# target to generate assembly for a file
-Auto.cpp.s:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Auto.cpp.s
-.PHONY : Auto.cpp.s
-
-Bicicleta.obj: Bicicleta.cpp.obj
-
-.PHONY : Bicicleta.obj
-
-# target to build an object file
-Bicicleta.cpp.obj:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Bicicleta.cpp.obj
-.PHONY : Bicicleta.cpp.obj
-
-Bicicleta.i: Bicicleta.cpp.i
-
-.PHONY : Bicicleta.i
-
-# target to preprocess a source file
-Bicicleta.cpp.i:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Bicicleta.cpp.i
-.PHONY : Bicicleta.cpp.i
-
-Bicicleta.s: Bicicleta.cpp.s
-
-.PHONY : Bicicleta.s
-
-# target to generate assembly for a file
-Bicicleta.cpp.s:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Bicicleta.cpp.s
-.PHONY : Bicicleta.cpp.s
-
 Menu.obj: Menu.cpp.obj
 
 .PHONY : Menu.obj
@@ -202,87 +148,6 @@ Menu.s: Menu.cpp.s
 Menu.cpp.s:
 	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Menu.cpp.s
 .PHONY : Menu.cpp.s
-
-Motocicleta.obj: Motocicleta.cpp.obj
-
-.PHONY : Motocicleta.obj
-
-# target to build an object file
-Motocicleta.cpp.obj:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Motocicleta.cpp.obj
-.PHONY : Motocicleta.cpp.obj
-
-Motocicleta.i: Motocicleta.cpp.i
-
-.PHONY : Motocicleta.i
-
-# target to preprocess a source file
-Motocicleta.cpp.i:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Motocicleta.cpp.i
-.PHONY : Motocicleta.cpp.i
-
-Motocicleta.s: Motocicleta.cpp.s
-
-.PHONY : Motocicleta.s
-
-# target to generate assembly for a file
-Motocicleta.cpp.s:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Motocicleta.cpp.s
-.PHONY : Motocicleta.cpp.s
-
-Troncomovil.obj: Troncomovil.cpp.obj
-
-.PHONY : Troncomovil.obj
-
-# target to build an object file
-Troncomovil.cpp.obj:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Troncomovil.cpp.obj
-.PHONY : Troncomovil.cpp.obj
-
-Troncomovil.i: Troncomovil.cpp.i
-
-.PHONY : Troncomovil.i
-
-# target to preprocess a source file
-Troncomovil.cpp.i:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Troncomovil.cpp.i
-.PHONY : Troncomovil.cpp.i
-
-Troncomovil.s: Troncomovil.cpp.s
-
-.PHONY : Troncomovil.s
-
-# target to generate assembly for a file
-Troncomovil.cpp.s:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Troncomovil.cpp.s
-.PHONY : Troncomovil.cpp.s
-
-Vehiculo.obj: Vehiculo.cpp.obj
-
-.PHONY : Vehiculo.obj
-
-# target to build an object file
-Vehiculo.cpp.obj:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Vehiculo.cpp.obj
-.PHONY : Vehiculo.cpp.obj
-
-Vehiculo.i: Vehiculo.cpp.i
-
-.PHONY : Vehiculo.i
-
-# target to preprocess a source file
-Vehiculo.cpp.i:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Vehiculo.cpp.i
-.PHONY : Vehiculo.cpp.i
-
-Vehiculo.s: Vehiculo.cpp.s
-
-.PHONY : Vehiculo.s
-
-# target to generate assembly for a file
-Vehiculo.cpp.s:
-	$(MAKE) -f CMakeFiles\Juego.dir\build.make CMakeFiles/Juego.dir/Vehiculo.cpp.s
-.PHONY : Vehiculo.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -320,24 +185,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Juego
 	@echo ... edit_cache
-	@echo ... Auto.obj
-	@echo ... Auto.i
-	@echo ... Auto.s
-	@echo ... Bicicleta.obj
-	@echo ... Bicicleta.i
-	@echo ... Bicicleta.s
 	@echo ... Menu.obj
 	@echo ... Menu.i
 	@echo ... Menu.s
-	@echo ... Motocicleta.obj
-	@echo ... Motocicleta.i
-	@echo ... Motocicleta.s
-	@echo ... Troncomovil.obj
-	@echo ... Troncomovil.i
-	@echo ... Troncomovil.s
-	@echo ... Vehiculo.obj
-	@echo ... Vehiculo.i
-	@echo ... Vehiculo.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
