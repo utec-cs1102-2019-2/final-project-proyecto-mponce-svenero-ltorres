@@ -5,29 +5,30 @@
 Menu ::Menu() {
     E num;
     L l=true;
-    cout<<"\n\t.:Iniciar Sesion:.\n";
-    cout<<"\n1. Comenzar partida nueva.\n";
-    cout<<"2. Cargar partida existente.\n";
-    cout<<"3. Salir del juego.\n";
-    cout<<"Seleccione una opcion:"<<endl;
-    cin>>num;
-while(l) {
-    switch (num) {
-        case 1:
-            MenuPricipal();
-            break;
-        case 2:
-            CargarPartida();
-            break;
-        case 3:
-            l = false;
-            cout << "Gracias por jugar, Adios.";
-            break;
-        default:
-            cout << "La opcion seleccionada no existe.";
-            break;
+    while(l) {
+        cout << "\n\t.:Iniciar Sesion:.\n";
+        cout << "\n1. Comenzar partida nueva.\n";
+        cout << "2. Cargar partida existente.\n";
+        cout << "3. Salir del juego.\n";
+        cout << "Seleccione una opcion:" << endl;
+        cin >> num;
+
+        switch (num) {
+            case 1:
+                MenuPricipal();
+                break;
+            case 2:
+                CargarPartida();
+                break;
+            case 3:
+                l = false;
+                cout << "Gracias por jugar, Adios.";
+                break;
+            default:
+                cout << "La opcion seleccionada no existe.";
+                break;
+        }
     }
-}
 }
 void Menu ::CargarPartida() {
 
@@ -36,6 +37,7 @@ void Menu ::CargarPartida() {
 void Menu ::MenuPricipal() {
     E num;
     L l = true;
+    while (l) {
     cout << "\n\t.:Menu Principal:.\n";
     cout << "\n1. Comprar Vehiculo" << endl;
     cout << "2. Iniciar Carrera." << endl;
@@ -43,7 +45,7 @@ void Menu ::MenuPricipal() {
     cout << "4. Salir de la partida." << endl;
     cout << "Seleccione la accion a realizar: " << endl;
     cin >> num;
-    while (l) {
+
         switch (num) {
             case 1:
                 ComprarVehiculo();
@@ -67,7 +69,8 @@ void Menu ::MenuPricipal() {
 void Menu ::ComprarVehiculo() {
     E num;
     L l = true;
-    cout << "Dinero Actual: " << Dinero;
+    while (l) {
+        cout << "Dinero Actual: " << Dinero;
     cout << "\n\t::::::::::Vehiculos Disponibles::::::::::\n";
     cout << "Lista\t Precio(S/.)" << endl;
     cout << "1) Automovil\tS/.1000" << endl;
@@ -76,7 +79,7 @@ void Menu ::ComprarVehiculo() {
     cout << "4) Bicicleta\tS/.400" << endl;
     cout << "Ingrese el numero del vehiculo a comprar(Marque 0 para salir): ";
     cin >> num;
-    while (l) {
+
         switch (num) {
             case 0:
                 MenuPricipal();
@@ -131,13 +134,14 @@ void Menu ::ComprarVehiculo() {
 void Menu ::PreCarrera() {
     E num;
     L l = true;
+    while (l) {
     cout << "\n\t.:CAMPOS:.\n";
     cout << "1. Pista Helada." << endl;
     cout << "2. Pista Rocosa." << endl;
     cout << "3. Pista Suprema." << endl;
     cout << "Digite el numero de la pista a correr: ";
     cin >> num;
-    while (l) {
+
         switch (num) {
             case 1:
                 SeleccionarVehiculo();
@@ -156,11 +160,12 @@ void Menu ::PreCarrera() {
 void Menu :: SeleccionarVehiculo() {
     E num;
     L l = true;
+    while (l) {
     cout << "\n\t.:MIS VEHICULOS:.\n";
     MisVehiculos();
     cout << "Digite el numero del vehiculo a utilizar: ";
     cin >> num;
-    while (l) {
+
         switch (num) {
             case 1:
                 Carrera();
@@ -181,13 +186,17 @@ void Menu :: MisVehiculos() {
 }
 
 void Menu :: Carrera() {
-    for(size_t i=1; i<= 7; i++) {
-        cout<<"Vuelta: "<<i<<" de 7."<<endl;
+    for(size_t i=1; i<= 4; i++) {
+        cout<<"Vuelta: "<<i<<" de 4."<<endl;
         MostrarDatos();
         Pits();
+        cin.ignore();
     }
     Dinero +=50;
     Exp +=40;
+    cout<<"Ganaste 50 monedas."<<endl;
+    cout<<"Ganaste 40 de exp."<<endl;
+    MenuPricipal();
 }
 void Menu ::MostrarDatos() {
     Estado();
@@ -216,11 +225,11 @@ void Menu ::Participantes() {
     }
         E tiempo = 0;
         E tiempo_total = 0;
-        cout << "\nNo.\tNombre\tTiempo vuelta\tTiempo Acumulado9\n";
+        cout << "\nNo.\t\tNombre\t\tTiempo vuelta\t\tTiempo Acumulado\n";
         for (size_t i = 0; i < Competidores.size(); i++) {
             E r = rand() % Competidores.size();
             tiempo = rand() % 200;
-            cout << i + 1 << "\t" << Competidores[r] << "\t" << tiempo << " seg.\t" << tiempo_total + tiempo << endl;
+            cout << i + 1 << "\t\t" << Competidores[r] << "\t\t" << tiempo << " seg.\t\t" << tiempo_total + tiempo << endl;
         }
     }
 
@@ -242,23 +251,28 @@ void Menu::Pits() {
 
 void Menu ::MenuPits() {
     E num;
-    cout<<"\nDinero Actual: "<<Dinero;
-    cout<<"\nParte\tPrecio(S/.)"<<endl;
-    cout<<"1) Chasis\tS/.100."<<endl;
-    cout<<"2) Carroceria\tS/.200."<<endl;
-    cout<<"3) Ruedas\tS/.400."<<endl;
-    cout<<"4) Zapatillas\tS/.270."<<endl;
+    L l = true;
+    while (l) {
+        cout << "\nDinero Actual: " << Dinero;
+        cout << "\nParte\tPrecio(S/.)" << endl;
+        cout << "1) Chasis\tS/.100." << endl;
+        cout << "2) Carroceria\tS/.200." << endl;
+        cout << "3) Ruedas\tS/.400." << endl;
+        cout << "4) Zapatillas\tS/.270." << endl;
 
-        cout<<"\nDigite el numero de la parte a mejorar(Digite 0 para continuar con la carrera): ";
-        cin>>num;
+        cout << "\nDigite el numero de la parte a mejorar(Digite 0 para continuar con la carrera): ";
+        cin >> num;
 
-        switch(num){
-            case 0: break;
+        switch (num) {
+            case 0:
+                Pits();
+                break;
             case 1:
                 if (Dinero >= 100) {
                     Dinero -= 100;
                     cout << "\nLa compra fue un exito.\n";
-                    cout << "\nSu dinero Actuar es: \n" << Dinero;break;
+                    cout << "\nSu dinero Actuar es: \n" << Dinero;
+                    break;
                 } else {
                     cout << "\nLo sentimos, pero no cuenta con saldo suficiente para realizar la compra.";
                     break;
@@ -267,7 +281,8 @@ void Menu ::MenuPits() {
                 if (Dinero >= 200) {
                     Dinero -= 200;
                     cout << "La compra fue un exito.\n";
-                    cout << "Su dinero Actuar es: " << Dinero;break;
+                    cout << "Su dinero Actuar es: " << Dinero;
+                    break;
                 } else {
                     cout << "Lo sentimos, pero no cuenta con saldo suficiente para realizar la compra.";
                     break;
@@ -276,7 +291,8 @@ void Menu ::MenuPits() {
                 if (Dinero >= 400) {
                     Dinero -= 400;
                     cout << "La compra fue un exito.\n";
-                    cout << "Su dinero Actuar es: " << Dinero;break;
+                    cout << "Su dinero Actuar es: " << Dinero;
+                    break;
                 } else {
                     cout << "Lo sentimos, pero no cuenta con saldo suficiente para realizar la compra.";
                     break;
@@ -285,15 +301,18 @@ void Menu ::MenuPits() {
                 if (Dinero >= 270) {
                     Dinero -= 270;
                     cout << "La compra fue un exito.\n";
-                    cout << "Su dinero Actuar es: " << Dinero; break;
+                    cout << "Su dinero Actuar es: " << Dinero;
+                    break;
                 } else {
                     cout << "Lo sentimos, pero no cuenta con saldo suficiente para realizar la compra.";
                     break;
                 }
-            default: cout<<"La opcion selecionada no existe. ";break;
+            default:
+                cout << "La opcion selecionada no existe. ";
+                break;
         }
     }
-
+}
 
 void Menu :: GuardarPartida() {
 
